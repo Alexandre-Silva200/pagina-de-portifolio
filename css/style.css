@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* TEGS GERAL */
+
 .container{
     margin-left: 10%;
     margin-right: 10%;
@@ -13,6 +15,14 @@
     grid-template-columns: auto;
 }
 
+.flex{
+    display: flex;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* CABEÇALHO */
 .header{
     display: flex;
     justify-content: space-between;
@@ -60,12 +70,7 @@
     font-size: 25px;
 }
 
-.flex{
-    display: flex;
-    grid-template-columns: auto;
-    justify-content: space-between;
-    margin-top: 40px;
-}
+/* TEXT + IMG */
 
 .flex .text{
    width: 100%;
@@ -120,4 +125,35 @@ button>a:hover{
 
 .img>img{
     width: 100%;
+}
+
+/* TEC */
+
+#col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    text-transform: uppercase;
+}
+
+#col>.cards{
+    width: 100%;
+    display: flex;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#col>.cards>.card>p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+#col>.cards>.card>img{
+    width: 8rem;
+    cursor: pointer;
 }
