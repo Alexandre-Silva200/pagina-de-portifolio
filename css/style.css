@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: antiquewhite;
 }
 
 /* TEGS GERAL */
@@ -22,6 +23,26 @@
     margin-top: 40px;
 }
 
+.btn{
+    padding: 20px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1f7cff;
+    margin-top: 20px;
+    cursor: pointer;
+  
+}
+
+.btn>a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.8s ease-in-out;
+    background-color: #1f7cff;
+}
 /* CABEÇALHO */
 .header{
     display: flex;
@@ -91,33 +112,6 @@ p{
     font-size: 17px;
 }
 
-.btn{
-    padding: 20px;
-    width: 180px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 20px;
-    border: none;
-    background-color: #1f7cff;
-    margin-top: 20px;
-    cursor: pointer;
-
-}
-
-button:hover{
-    font-size: 20px;
-}
-
-.btn>a{
-    font-size: 17px;
-    text-decoration: none;
-    color: #ffff;
-    transition: 0.8s ease-in-out;
-}
-button>a:hover{
-    font-size: 20px;
-}
-
 .img{
     width: 100%;
     height: auto;
@@ -159,3 +153,108 @@ button>a:hover{
 }
 
 /* SERVIÇOS */
+
+.text-servicos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.text-servicos .p{
+    color: #f75c4e;
+    font-size: 18px;
+}
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.servicos img{
+    width: 13%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+}
+
+.servicos > h5{
+    font-size: 1.5rem;
+}
+
+/*CONTATOS*/
+
+.img-02{
+    width: 750px;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.img-02> img{
+    width: 100%;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    gap: 10px;
+    margin-bottom: 2%;
+}
+
+.contato>h5{
+    color: #f75c4e;
+    font-size: 28px;
+}
+
+.contato>p{
+    font-size: 1.2rem;
+    cursor: pointer;  
+}
+
+.contato>form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 1.5rem;
+}
+
+.contato>form>input{
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: none;
+    background-color: #d7dae6;
+}
+
+/*portifolio*/
+
+.describer>h5{
+    color: #f75c4e;
+    font-size: 20px;
+}
+
+.describer>h2{
+    font-size: 55px;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+} 
+ 
+.flex-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.flex-img>img{
+    width: 30%;
+}
